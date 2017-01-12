@@ -8,11 +8,16 @@ namespace ConsoleApplication1
 {
 
 
-    class Animal
+    class AMaze
     {
+        struct Cell
+        {
+            public bool P { get; set; }
+        }
+
         static void Main(string[] args)
         {
-            Animal an = new Animal();
+           
 
             List<int> numList= new List<int> {5,10,15,20,25};
 
