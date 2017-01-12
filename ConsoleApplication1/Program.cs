@@ -8,12 +8,9 @@ namespace ConsoleApplication1
 {
 
 
-    class AMaze
+    abstract class Car
     {
-        struct Cell
-        {
-            public bool P { get; set; }
-        }
+        public abstract int MPG();
 
         static void Main(string[] args)
         {
