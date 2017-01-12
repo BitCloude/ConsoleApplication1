@@ -15,6 +15,8 @@ namespace ConsoleApplication1
             public bool P { get; set; }
         }
 
+        public abstract void goHome();
+
         static void Main(string[] args)
         {
            
