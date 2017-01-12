@@ -16,9 +16,9 @@ namespace ConsoleApplication1
 
             List<int> numList= new List<int> {5,10,15,20,25};
 
-            List<int> oddNums = numList.Where(n => n % 2 == 1).ToList();
+            List<int> evenNums = numList.Where(n => n % 2 == 0).ToList();
 
-            foreach (int num in oddNums)
+            foreach (int num in evenNums)
             {
                 Console.WriteLine(num + ",");
             }
