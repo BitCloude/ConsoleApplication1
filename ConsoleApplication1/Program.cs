@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-
-
     abstract class Car
     {
         public abstract int MPG();
+
 
         public abstract void goHome();
 
