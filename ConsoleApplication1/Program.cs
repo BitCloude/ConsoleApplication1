@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-
-
-    class AMaze
+    abstract class Car
     {
-        struct Cell
-        {
-            public bool P { get; set; }
-        }
+        public abstract int MPG();
+
 
         public abstract void goHome();
 
