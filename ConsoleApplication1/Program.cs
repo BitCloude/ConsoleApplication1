@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         public abstract int MPG();
 
 
-        public abstract void goHome();
+        public abstract void goHomeMaster();
 
         static void Main(string[] args)
         {
